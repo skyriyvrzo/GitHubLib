@@ -1,4 +1,4 @@
-package com.get.lib.github;
+package xyz.cuddlecloud.javax.github;
 
 import java.awt.Desktop;
 import java.io.BufferedReader;
