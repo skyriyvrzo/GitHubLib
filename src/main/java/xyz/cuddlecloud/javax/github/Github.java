@@ -17,9 +17,9 @@ import com.google.gson.JsonParser;
 
 public final class Github {
 
-	private String repositoryOwner;
-	private String repositoryName;
-	private String currentVersion;
+	private final String repositoryOwner;
+	private final String repositoryName;
+	private final String currentVersion;
 	
 	public Github(String repositoryOwner, String repositoryName, String currentVerison) {
 		this.repositoryOwner = repositoryOwner;
